@@ -1,0 +1,151 @@
+/* 
+font-family: 'Jomhuria', serif;
+font-family: 'Josefin Sans', sans-serif; 
+color: #323C46;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    letter-spacing: .2rem;
+}
+
+@media(max-width: 1470px) {
+    video {
+        width: 700;
+    }
+}
+
+@media(max-width: 900px) {
+    h1 {
+        font-size: 64px !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    h2 {
+        font-size: 48px !important;
+    }
+
+    p {
+        font-size: x-large !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .tofly__img {
+        max-width: 500px !important;
+    }
+
+    .tofly__video {
+        width: 320px !important;
+    }
+
+    .tofly__link {
+        font-size: 16px !important;
+        margin: 1rem !important;
+    }
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 48px !important;
+    }
+
+    h2 {
+        font-size: 36px !important;
+        margin-bottom: 2rem !important;
+    }
+
+    p {
+        font-size: larger !important;
+    }
+
+    a {
+        font-size: 30px !important;
+    }
+
+    .customer__details {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .header__links-container {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .links {
+        padding-right: 0px !important;
+        margin: 0.7rem !important;
+        border-right: none !important;
+    }
+
+    .tofly__img {
+        max-width: 320px !important;
+    }
+
+    video {
+        width: 320px !important;
+    }
+
+    .tofly__link {
+        font-size: 16px !important;
+    }
+}
+
+@media(max-width: 371px) {
+    h1 {
+        font-size: 36px !important;
+    }
+
+    p {
+        font-size: large !important;
+    }
+
+    a {
+        font-size: 20px !important;
+        margin: 0.2rem !important;
+        border-right: none !important;
+        text-align: right !important;
+    }
+
+    .links {
+        padding-right: 1.2rem;
+    }
+
+    .tofly__link {
+        font-size: 16px !important;
+    }
+}
+
+@media(max-width: 300px) {
+    h1 {
+        font-size: 48px !important;
+    }
+
+    h2 {
+        font-size: 36px !important;
+    }
+
+    p {
+        font-size: larger !important;
+    }
+
+    a {
+        font-size: 20px !important;
+    }
+
+    .tofly__img {
+        max-width: 250px !important;
+    }
+
+    video {
+        width: 250px !important;
+    }
+
+    .tofly__link {
+        font-size: 16px !important;
+    }
+}

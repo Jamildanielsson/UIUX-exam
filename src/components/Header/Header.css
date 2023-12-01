@@ -1,0 +1,77 @@
+.main__header {
+    background-image: url('../../assets/amalficoast.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1470px;
+    max-width: 1470px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Jomhuria';
+}
+
+.main__header::before {
+    content: "";
+    background-color: black;
+    max-width: 1470px;
+    height: 340px;
+    position: absolute;
+    margin: 0.5rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.header__links-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    height: 70px;
+    background-color: rgba(217, 217, 217, .9);
+}
+
+.links {
+    margin: 1rem;
+    text-decoration: none;
+    color: #323C46;
+    font-size: 40px;
+    border-right: 1px solid #323C46;
+    padding-right: 1.7rem;
+    letter-spacing: 3px;
+}
+
+.links:hover {
+    color: green;
+}
+
+.last-link {
+    border: none !important;
+}
+
+.flyaway__logo-heading {
+    position: relative;
+    font-size: xx-large;
+    font-size: 96px;
+    letter-spacing: .3rem;
+    font-weight: 400;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+.flyaway__logo-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+i {
+    font-size: 36px;
+    color: black;
+}

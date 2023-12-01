@@ -1,0 +1,53 @@
+.start__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.start__heading-lv1 {
+    font-family: 'Jomhuria', serif;
+    font-size: 96px;
+    margin: 0.5rem;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    color: #323C46;
+}
+
+.start__paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: -0.5rem;
+    margin-left: 0.5rem;
+    color: #323C46;
+}
+
+.start__paragraph-bottom {
+    margin: 0.5rem !important;
+    margin-top: -1rem !important;
+    margin-bottom: 1rem !important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5rem;
+    color: #323C46;
+}
+
+.main__button {
+    border: 1px solid #323C46;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 1.5rem 3rem;
+    font-size: 20px;
+    margin: 0.5rem;
+    color: #323C46;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main__button:hover {
+    background-color: lightblue;
+}
+
+.main__button:active {
+    transform: scaleX(1.02);
+    filter: brightness(0.9);
+}
