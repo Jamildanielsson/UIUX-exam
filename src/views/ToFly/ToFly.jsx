@@ -18,7 +18,7 @@ function ToFly() {
           kunna förbereda båda er vuxna men framförallt barnen inför flygresan.
           Vi hoppas att vår video skall kunna hjälpa er med er nästa flygresa.</p>
         <video tabIndex="0" className='tofly__video' controls >
-          <source name='Instruktionsvideo' src="../../src/assets/video/video.webm" type="video/webm" />
+          <source name='Instruktionsvideo' src="../../src/assets/video/video.mp4" type="video/mp4" />
           <track src="../../src/assets/video/video.vtt" srcLang="en" label="English" kind="captions" default={true}></track>
           Din webbläsare stödjer inte denna typ av filmfiler.
           <a href='https://www.youtube.com/watch?v=JFQU_A5YjJw'>Länk till videon istället</a>
