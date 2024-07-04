@@ -10,7 +10,7 @@ function ToFly() {
       <Header />
       <section className='kids__section'>
         <h1 tabIndex="0" className='tofly__heading-lv1'>INFÖR DIN RESA</h1>
-        <img className='tofly__img' src="/src/assets/cryingbaby.png" alt="Ett barn som befinner sig på ett flygplan och skriker rakt ut" /><br></br><span tabIndex='0' className='margin-extra'>  En bebis gråter på flygplanet</span><br></br>
+        <img className='tofly__img' src="https://tinyurl.com/397n23xc" alt="Ett barn som befinner sig på ett flygplan och skriker rakt ut" /><br></br><span tabIndex='0' className='margin-extra'>  En bebis gråter på flygplanet</span><br></br>
         <h2 tabIndex="0" className='tofly__heading-lv2'>Att flyga med barn</h2>
         <p tabIndex="0" className='tofly__paragraph'>Att flyga med barn kan vara svårt ibland, dem kan skrika när de känner obehag och att sitta fast
           med bälte kan skapa en klaustrofobisk känsla vilket enkelt kan stressa ett litet barn.
@@ -30,7 +30,7 @@ function ToFly() {
           Behöver du hjälp med din flygrädsla? Använd länken nedan för att få råd inför resan</p>
         <a className='tofly__link' href="https://www.sveakbt.se/fobier/flygradsla">Länk: Läs mer här om flygrädsla</a>
         <br></br>
-        <img className='tofly__img' src="/src/assets/cartoon.png" alt="En tecknad bild på en man ombord på ett flygplan som skakar av rädsla" /><br></br><span tabIndex='0' className='margin-extra'>En man skakar av rädsla i sin flygplans-stol</span><br></br><br></br>
+        <img className='tofly__img' src="https://tinyurl.com/56s5v8ak" alt="En tecknad bild på en man ombord på ett flygplan som skakar av rädsla" /><br></br><span tabIndex='0' className='margin-extra'>En man skakar av rädsla i sin flygplans-stol</span><br></br><br></br>
       </section>
       <button className='main__button' onClick={() => navigate('/')}>TILLBAKA TILL START</button>
     </main>
